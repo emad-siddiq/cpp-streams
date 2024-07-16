@@ -1,0 +1,16 @@
+Target dependency graph (7 targets)
+Target 'update_mappings' in project 'video-app'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'video-app'
+Target 'uninstall' in project 'video-app' (no dependencies)
+Target 'install' in project 'video-app'
+➜ Explicit dependency on target 'ALL_BUILD' in project 'video-app'
+Target 'ALL_BUILD' in project 'video-app'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'video-app'
+➜ Explicit dependency on target 'video-app' in project 'video-app'
+➜ Explicit dependency on target 'glfw' in project 'video-app'
+Target 'video-app' in project 'video-app'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'video-app'
+➜ Explicit dependency on target 'glfw' in project 'video-app'
+Target 'glfw' in project 'video-app'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'video-app'
+Target 'ZERO_CHECK' in project 'video-app' (no dependencies)
