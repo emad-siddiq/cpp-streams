@@ -33,7 +33,7 @@ int main(int argc, const char** argv) {
     
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        glDrawPixels(100, 100, GL_RGB, GL_UNSIGNED_BYTE, data);
+        glDrawPixels(100, 200, GL_RGB, GL_UNSIGNED_BYTE, data);
         glfwSwapBuffers(window);
         glfwWaitEvents();
     }
