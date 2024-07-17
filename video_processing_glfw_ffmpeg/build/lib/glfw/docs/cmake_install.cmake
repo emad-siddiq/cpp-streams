@@ -1,4 +1,4 @@
-# Install script for directory: /Users/emadsiddiq/Projects/bartholomew_cxx_stream/lib/glfw/docs
+# Install script for directory: /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,5 +37,5 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/build")
+set(CMAKE_BINARY_DIR "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build")
 

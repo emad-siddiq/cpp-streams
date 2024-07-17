@@ -1,4 +1,4 @@
-# Install script for directory: /Users/emadsiddiq/Projects/bartholomew_cxx_stream
+# Install script for directory: /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,11 +37,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/build")
+set(CMAKE_BINARY_DIR "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build")
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/emadsiddiq/Projects/bartholomew_cxx_stream/build/lib/glfw/cmake_install.cmake")
+  include("/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -59,6 +59,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

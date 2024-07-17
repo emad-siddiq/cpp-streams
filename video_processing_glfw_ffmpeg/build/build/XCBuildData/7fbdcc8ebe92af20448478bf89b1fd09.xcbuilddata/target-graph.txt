@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'video-app' in project 'video-app'
+➜ Explicit dependency on target 'glfw' in project 'video-app'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'video-app'
+Target 'glfw' in project 'video-app'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'video-app'
+Target 'ZERO_CHECK' in project 'video-app' (no dependencies)
