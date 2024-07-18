@@ -10,3 +10,6 @@
 /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src/CMakeFiles/update_mappings.dir
 /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src/CMakeFiles/install.dir
 /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/docs/CMakeFiles/install.dir
+/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/FFmpeg/CMakeFiles/install.dir
+/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/FFmpeg/CMakeFiles/ALL_BUILD.dir
+/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/FFmpeg/CMakeFiles/ZERO_CHECK.dir

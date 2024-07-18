@@ -9,19 +9,44 @@
 /* Begin PBXAggregateTarget section */
 		69F25FD56D20BABA9BBD05EA /* uninstall */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AAAB21A8843B4D5AA15A52A0 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildConfigurationList = E4A58325C640411B9BA44BC4 /* Build configuration list for PBXAggregateTarget "uninstall" */;
 			buildPhases = (
 				3E02A350E1A37B0DCBD0A225 /* Generate CMakeFiles/uninstall */,
 			);
 			dependencies = (
-				CA8B00DB741B42E589085E9E /* PBXTargetDependency */,
+				3F584E82D08B4CCB906F9E67 /* PBXTargetDependency */,
 			);
 			name = uninstall;
 			productName = uninstall;
 		};
-		95BD0D1A741D499E421E469A /* ZERO_CHECK */ = {
+		85E5A934EE16CB34299FAF44 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C6C04D6721704D52A84D9535 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = AF1143331A6247E8A236F154 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E41EBC045D2D47B7A70404FA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		B9D2BBB080A4F7F1A0BE25C5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5FFCB276FC744027B402AD70 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				7CE181871061A5E236225A56 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8DE6B74482C04A8FA3C94880 /* PBXTargetDependency */,
+				9D8724FAAA4D45128BD716FC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E14DA57774E439067A08FA3F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05A1DA8C9FD24006AC3FD783 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				659BD66CF4F109091B4068C2 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -30,34 +55,9 @@
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		9C667F758C87ACBA8EE0421F /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = AF3F09647F9946CF8C351C23 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				7CE181871061A5E236225A56 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				CF6CFAB39AF34210A1F7C667 /* PBXTargetDependency */,
-				4BCA771B35ED4A7B89974CEF /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		B6094E4F90A98C58D932A2ED /* install */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = CE069161712344D6B99676C5 /* Build configuration list for PBXAggregateTarget "install" */;
-			buildPhases = (
-				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
-			);
-			dependencies = (
-				1D721817458E44B09431BFFF /* PBXTargetDependency */,
-			);
-			name = install;
-			productName = install;
-		};
 		FDCE78679006322C39C719A2 /* update_mappings */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B2899AEBCF154071A3E71108 /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildConfigurationList = E75DFDF1198845B4868C7D50 /* Build configuration list for PBXAggregateTarget "update_mappings" */;
 			buildPhases = (
 				D7F8A7A054B36DD945397C75 /* Generate src/CMakeFiles/update_mappings */,
 			);
@@ -69,147 +69,147 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0055C426673044BAA286ED52 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 4AAE78D0CA1E41A3A04F780C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */; };
-		008649ECB1CE4D77A5C73D03 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = EE61F855FF4442639993ECD4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */; };
-		081A420E338740929C9001B1 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = AD7B806C115948C2A9D9BA5C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */; };
-		0946D994E16147A6AD4BC627 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = BC58C4EF916B4A81AB65180C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */; };
-		0B1A3B86BD70464FA8584ADA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 992B45F1E1EC4884A36B27EA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */; };
-		10C47A821AB04403AC8174D2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = E223401EE7DF43A4A96360FA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */; };
-		1F4D3451CA63414082895695 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = 938C8D30D2C7418390C6BD4F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */; };
-		296164561B8A487496B6F0DA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B6BD5B7869B240DDBADFF28F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */; };
-		3C9299AD159F4B71BDFD40A3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 1026AFBAC0284DBF91257347 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */; };
-		45DD8572ABDB4D85A49CF634 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 5F8B4AC95622493BBFCA68BD /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */; };
-		5125812CBCB5404B8D5AD1D2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 986DB4C719D44A1D8E0695B6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */; };
-		641F9106B8594C05B61F9581 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = 9EDACDC2CA1A4106B0D7F6FA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */; };
-		7145B02491D1448C9C01097F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 1BEFAACD9B2A4BB997FB92B1 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */; };
-		7BC1F41F876E42FB8420FA3D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 15D674D0D49F4EA3B0BE0E95 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */; };
-		7E1ECD8DBCBA4A39BE0F646D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = F00D086159F44B0D996C2E50 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */; };
-		7E66D62CF2AF49C5AF43DDAA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 555756528A3543578BFAA85A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */; };
-		8A9C1A6D3BB448DFABD4D0BE /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 76C1B859B3B64EFF9E6AFE81 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */; };
-		9163BA791C8A4536BD6B73C7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 66D772E408EC434F9586C1C7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */; };
-		955EE0EE9AEE47888C9DC918 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 98327C3EAF9A40459F46DB7F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */; };
-		A40D5692DCB94B7DBB0B9B3C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = AE1379392095492C805F3403 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */; };
-		A946C384177F43E18896E750 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 0AAB096C82CC451C99FB37C8 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */; };
-		B21CDED276DE4752A3160A03 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 4379132D9F774E368C3E618C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */; };
-		BE912FD30FB540AB8F01E388 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 040E7348B60F43CFB94D6341 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */; };
-		BEC3F81B77BC416F85D395CD /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = F7BD23B80EA34FCC9283AF00 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */; };
-		BF0A19909F8640F28BE0B92F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 407951BBA3E14FFA8C2E01B4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */; };
-		D3DDE388A19847A1B4DA6B35 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = E4E9CAAB5ADF453EAC56919A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */; };
-		DD6D2743F8A44EBBBE45A634 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = FA36EC8A08E84740843F96C5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */; };
-		F76CCF7AFA7F4C69B46C8138 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 2C6419A5973B46A0A44045D6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */; };
-		F89AECBA77AD431987861BD8 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = DD8F5BD23AD543E6AC85BBE6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */; };
-		FB57E86F36994A6098237E04 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = A032A1B285C144208F54AA40 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */; };
-		FCA7F9D3B6CC4131B5AE98E5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 1C683593DE74442D849CA71C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */; };
-		FDD193EF23E640D6A0FC2A85 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 7AD21F4EFEFD4C679A4E70E6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */; };
-		FFE33BEFA64649D782E8B547 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = 6B3A140D317347F6A8EF9640 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */; };
+		072A5A8F33D8405496638A30 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 6F96431B2B6D456D97F5558B /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */; };
+		0B6D2181220F40CDBD703305 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = DBB73545767F43C0B4F6F90C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */; };
+		1809E5ACBE1140B2953660C3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 9CD1FDA9BA314660B4771797 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */; };
+		2930036DAAF44E1D8E755C23 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */ = {isa = PBXBuildFile; fileRef = 99E402D3949546398F630AFA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */; };
+		2C1051EB67F942898AA1BAC9 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 478A77C779E54FA598B6D993 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */; };
+		2FEF4FF8680E4E55BAD8ED94 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 7EBD69D7C18D4B7C88265017 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */; };
+		32AD009CE59A4E81B98A4F12 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = F7A4C098643C4EC09669DC7A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */; };
+		3B6223164C904F87A63CD059 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */ = {isa = PBXBuildFile; fileRef = F8A971DE024D487BBCD03C8E /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */; };
+		3DCD5E71765441C48AA720F5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */ = {isa = PBXBuildFile; fileRef = ABC3E5E2036A41B785BB0C50 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */; };
+		4A3E46A59ADD4C698E598B93 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */ = {isa = PBXBuildFile; fileRef = 84E676D137F143D3B6BBB165 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */; };
+		4A8902C585374939AB0AAC1C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */ = {isa = PBXBuildFile; fileRef = 0C7E7669207F4876AE3E4D98 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */; };
+		526A89466B7F49D6A622491F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */ = {isa = PBXBuildFile; fileRef = 7507D96148654CAC9384AE03 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */; };
+		5E0E7DC12545482AB261AE83 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = C4ABE66E0ED64835A0F33F7D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */; };
+		6B1DA3432B03443DA7555B29 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = E1ECD7839EDB44DF9DC3EDAF /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */; };
+		75B1B2042E7F4B0580071D7A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 2588DC12E417480993FC3C30 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */; };
+		7DD69515B08A4D308F017D40 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = D2A9423A65984A84AA2CE7E7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */; };
+		83C50A8BAA91443FB9E8689F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = C57149D507E54D85A51EECF9 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */; };
+		95A0D4AC7DA44B4594380EA7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 61200274A2DC44FCA090F2BB /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */; };
+		AB9778F4813042A3A8B0B83F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 923EF69D1D254CEEBCC370B2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */; };
+		B573A58332EE45A6AE449D0F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 00DCC143E0ED4EB4BAB39EB5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */; };
+		BD0E9F879C754385B2EC7B97 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 32B6DE71752044F9A13437BC /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */; };
+		C0C9676764B44BEBBFAA34A3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0D0EFA6D940448A0AB5F0103 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */; };
+		C4C3391B56054A7A80962390 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 9757373F1E0C4649AFF293A3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */; };
+		CB6408DF7BE24BDB83255B55 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = B1DFB51E4D4343B9A5887D9C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */; };
+		CCFB5F9BBE914879B2EB37C4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 18B35E6A1D764E9F89D7C0D0 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */; };
+		E3F7BF1BC55E44958C027996 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 36ADD4B43E1F4C0AB197F946 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */; };
+		E402F447143B4B64AB35F498 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 7606E4DD7EA14A08BF6ECE3D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */; };
+		E9FEAB14FD60406991193648 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */ = {isa = PBXBuildFile; fileRef = 32F6D78DEF18498FB78FD405 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */; };
+		EB5C24666B824383873FD3CA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */ = {isa = PBXBuildFile; fileRef = EF4F08879F3140F1B7D6E88E /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */; };
+		F1703D44569049FFB5890128 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */ = {isa = PBXBuildFile; fileRef = 29FF0D3D28D9421AA96C8052 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */; };
+		F49E256896814E1D919585DE /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 11679F71BB8649D0A22E4351 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */; };
+		F56C2F87A65944888AACE03D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = AC6DAD3A8A5049B4A3D7F3AB /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */; };
+		FF76CD86151C411A9CAD2D49 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */ = {isa = PBXBuildFile; fileRef = 51C6CC82450F44B59F571270 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		20E9366C38B54A5496C81E60 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		48BC85F255D541999C5B500F /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		704A3AF4872A4C1BA2F6B1C2 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		DD02B49E4F564FA897CFF1DB /* Debug */ = {
+		309041F2931C47ADBC5EDCD4 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		454FC6C497954ECAABF25F37 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9CC22D5F825D4B0DAF3B54DC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BFFCAE32620B4C959869EE81 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		4C72DD9AA48F4F1AB81D5A75 /* PBXContainerItemProxy */ = {
+		40F145240CA8424A9101D019 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 59F7784C455C431199F96FF7 /* Project object */;
+			containerPortal = 0FB98364B8DD4575B27C4FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14DA57774E439067A08FA3F;
+			remoteInfo = ZERO_CHECK;
+		};
+		5400E398CD2A4753B657CF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FB98364B8DD4575B27C4FD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D2BBB080A4F7F1A0BE25C5;
+			remoteInfo = ALL_BUILD;
+		};
+		57E1396DDE3F455BBF43656C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FB98364B8DD4575B27C4FD4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BBBF7D44CA331C1E3E2A4C14;
 			remoteInfo = glfw;
 		};
-		71267BD7F6C74F9B958C5E74 /* PBXContainerItemProxy */ = {
+		8C9214317D7C42298530967A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 59F7784C455C431199F96FF7 /* Project object */;
+			containerPortal = 0FB98364B8DD4575B27C4FD4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 95BD0D1A741D499E421E469A;
-			remoteInfo = ZERO_CHECK;
-		};
-		917220AA7F9448AAAAFAF01D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59F7784C455C431199F96FF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C667F758C87ACBA8EE0421F;
-			remoteInfo = ALL_BUILD;
-		};
-		CC9E639D7E724085B50AD806 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59F7784C455C431199F96FF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95BD0D1A741D499E421E469A;
+			remoteGlobalIDString = E14DA57774E439067A08FA3F;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		040E7348B60F43CFB94D6341 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		0AAB096C82CC451C99FB37C8 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
-		0FF984669F4C4F659F842C88 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		1026AFBAC0284DBF91257347 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		15D674D0D49F4EA3B0BE0E95 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		1BEFAACD9B2A4BB997FB92B1 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		1C683593DE74442D849CA71C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		2C6419A5973B46A0A44045D6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		30FA0A4132B244EE8D019C87 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
-		407951BBA3E14FFA8C2E01B4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
-		4379132D9F774E368C3E618C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		4AAE78D0CA1E41A3A04F780C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		4E73DA9547394765BA15F279 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		555756528A3543578BFAA85A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		5F8B4AC95622493BBFCA68BD /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
-		66D772E408EC434F9586C1C7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		6B3A140D317347F6A8EF9640 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
-		76C1B859B3B64EFF9E6AFE81 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		7AD21F4EFEFD4C679A4E70E6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		938C8D30D2C7418390C6BD4F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
-		98327C3EAF9A40459F46DB7F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
-		986DB4C719D44A1D8E0695B6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		992B45F1E1EC4884A36B27EA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
-		9A6C8E63650E47F7A59347C0 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9D2167C7978145BF88A2FA32 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9EDACDC2CA1A4106B0D7F6FA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
-		A032A1B285C144208F54AA40 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		AD7B806C115948C2A9D9BA5C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		AE1379392095492C805F3403 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		B6BD5B7869B240DDBADFF28F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		BC58C4EF916B4A81AB65180C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		DD8F5BD23AD543E6AC85BBE6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		E223401EE7DF43A4A96360FA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		E4E9CAAB5ADF453EAC56919A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		E584E68D843D41858CE8B127 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
-		EE61F855FF4442639993ECD4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
-		F00D086159F44B0D996C2E50 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
-		F7BD23B80EA34FCC9283AF00 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
-		FA36EC8A08E84740843F96C5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
+		00DCC143E0ED4EB4BAB39EB5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		0C7E7669207F4876AE3E4D98 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_init.c; path = src/null_init.c; sourceTree = SOURCE_ROOT; };
+		0D0EFA6D940448A0AB5F0103 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		11679F71BB8649D0A22E4351 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		18B35E6A1D764E9F89D7C0D0 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		2588DC12E417480993FC3C30 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		29FF0D3D28D9421AA96C8052 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_monitor.c; path = src/null_monitor.c; sourceTree = SOURCE_ROOT; };
+		32B6DE71752044F9A13437BC /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		32F6D78DEF18498FB78FD405 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_module.c; path = src/posix_module.c; sourceTree = SOURCE_ROOT; };
+		36ADD4B43E1F4C0AB197F946 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		3E78EB850A14409F97F60AAE /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3EB5937D7F5948628AF7675D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
+		478A77C779E54FA598B6D993 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		51C6CC82450F44B59F571270 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_time.h; path = src/cocoa_time.h; sourceTree = SOURCE_ROOT; };
+		61200274A2DC44FCA090F2BB /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		6C7FAEEBD043483080903B4D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6F96431B2B6D456D97F5558B /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		7507D96148654CAC9384AE03 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
+		7606E4DD7EA14A08BF6ECE3D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		7EBD69D7C18D4B7C88265017 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		84E676D137F143D3B6BBB165 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_joystick.c; path = src/null_joystick.c; sourceTree = SOURCE_ROOT; };
+		923EF69D1D254CEEBCC370B2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		9757373F1E0C4649AFF293A3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		99E402D3949546398F630AFA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = platform.c; path = src/platform.c; sourceTree = SOURCE_ROOT; };
+		9CD1FDA9BA314660B4771797 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		ABC3E5E2036A41B785BB0C50 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = null_window.c; path = src/null_window.c; sourceTree = SOURCE_ROOT; };
+		AC6DAD3A8A5049B4A3D7F3AB /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		B1DFB51E4D4343B9A5887D9C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		BC5924F9DD1F4D80BAB3F5A8 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C0530F71F5F84D23B77F5D5C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
+		C4ABE66E0ED64835A0F33F7D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		C57149D507E54D85A51EECF9 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		CC659B19856442A89E09D8C7 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A9423A65984A84AA2CE7E7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		DBB73545767F43C0B4F6F90C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		E1ECD7839EDB44DF9DC3EDAF /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		EF4F08879F3140F1B7D6E88E /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_platform.h; path = src/null_platform.h; sourceTree = SOURCE_ROOT; };
+		F7A4C098643C4EC09669DC7A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		F8A971DE024D487BBCD03C8E /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_joystick.h; path = src/null_joystick.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A67426F27E847A7B0FF9745 /* Frameworks */ = {
+		9920D72C122B4748B7899401 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,161 +219,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CAF309CB06B404F81907E09 /* update_mappings */ = {
+		15412139244045AEBBB7D1D0 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE7D70A3A2744D89BF588FFE /* Header Files */,
-				587B5658417C4A3DA77F9A42 /* CMake Rules */,
-				E584E68D843D41858CE8B127 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMake/GenerateMappings.cmake */,
-				9D2167C7978145BF88A2FA32 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */,
+				61200274A2DC44FCA090F2BB /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */,
+				9CD1FDA9BA314660B4771797 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */,
+				E1ECD7839EDB44DF9DC3EDAF /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */,
+				7EBD69D7C18D4B7C88265017 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */,
+				478A77C779E54FA598B6D993 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */,
+				B1DFB51E4D4343B9A5887D9C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */,
+				C4ABE66E0ED64835A0F33F7D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */,
+				00DCC143E0ED4EB4BAB39EB5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */,
+				D2A9423A65984A84AA2CE7E7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */,
+				32B6DE71752044F9A13437BC /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */,
+				AC6DAD3A8A5049B4A3D7F3AB /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */,
+				0C7E7669207F4876AE3E4D98 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */,
+				84E676D137F143D3B6BBB165 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */,
+				29FF0D3D28D9421AA96C8052 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */,
+				ABC3E5E2036A41B785BB0C50 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */,
+				9757373F1E0C4649AFF293A3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */,
+				99E402D3949546398F630AFA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */,
+				32F6D78DEF18498FB78FD405 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */,
+				F7A4C098643C4EC09669DC7A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */,
+				11679F71BB8649D0A22E4351 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */,
+				7606E4DD7EA14A08BF6ECE3D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */,
 			);
-			name = update_mappings;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		3CC685F9A4EB4B8299FAC88F /* ALL_BUILD */ = {
+		2AE3E7A726384B44814DBA2C /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				F79D5CEFED75454FA1067018 /* CMake Rules */,
-				0FF984669F4C4F659F842C88 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */,
+				18B35E6A1D764E9F89D7C0D0 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */,
+				DBB73545767F43C0B4F6F90C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */,
+				36ADD4B43E1F4C0AB197F946 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */,
+				6F96431B2B6D456D97F5558B /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */,
+				51C6CC82450F44B59F571270 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */,
+				923EF69D1D254CEEBCC370B2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */,
+				C57149D507E54D85A51EECF9 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */,
+				F8A971DE024D487BBCD03C8E /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */,
+				EF4F08879F3140F1B7D6E88E /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */,
+				7507D96148654CAC9384AE03 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */,
+				2588DC12E417480993FC3C30 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */,
 			);
-			name = ALL_BUILD;
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		3CF7F14B42EA4F84801A7E71 /* GLFW3 */ = {
+		393F997240024B66A6D6DF17 /* uninstall */ = {
 			isa = PBXGroup;
 			children = (
-				FA2CF4FC6BCB478F96BEDD70 /* uninstall */,
-				DA60A0ED5632456F9CAE5FE4 /* glfw */,
-				3CAF309CB06B404F81907E09 /* update_mappings */,
+				FF83100F1B2F42169E1E05DB /* CMake Rules */,
+				6C7FAEEBD043483080903B4D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */,
 			);
-			name = GLFW3;
+			name = uninstall;
 			sourceTree = "<group>";
 		};
-		587B5658417C4A3DA77F9A42 /* CMake Rules */ = {
+		678B1A5E01814A6CBE45E10E /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		7799327AABF1456CB7CA717F /* Frameworks */ = {
+		70576B07A66F4F2B80A33C0C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79FBB5D0DD5042A897EB2BD0 = {
-			isa = PBXGroup;
-			children = (
-				3CF7F14B42EA4F84801A7E71 /* GLFW3 */,
-				3CC685F9A4EB4B8299FAC88F /* ALL_BUILD */,
-				A897D3F780F4444C88F06E13 /* Products */,
-				7799327AABF1456CB7CA717F /* Frameworks */,
-				B47BAEB2CF00455DAD7D43DC /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		8394EE60E1074AAFBD2F5EBE /* CMake Rules */ = {
+		9BA1B83F35E64101B7E6E8A2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		A897D3F780F4444C88F06E13 /* Products */ = {
+		A0FCFECF411E49E28D01EF6A /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				4E73DA9547394765BA15F279 /* glfw */,
+				678B1A5E01814A6CBE45E10E /* CMake Rules */,
+				3E78EB850A14409F97F60AAE /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */,
 			);
-			name = Products;
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		AF5E4B761D45445B92A0975E /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				4379132D9F774E368C3E618C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */,
-				AD7B806C115948C2A9D9BA5C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */,
-				7AD21F4EFEFD4C679A4E70E6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */,
-				1C683593DE74442D849CA71C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */,
-				A032A1B285C144208F54AA40 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */,
-				76C1B859B3B64EFF9E6AFE81 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */,
-				1026AFBAC0284DBF91257347 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */,
-				E223401EE7DF43A4A96360FA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */,
-				E4E9CAAB5ADF453EAC56919A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */,
-				986DB4C719D44A1D8E0695B6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */,
-				2C6419A5973B46A0A44045D6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */,
-				407951BBA3E14FFA8C2E01B4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */,
-				0AAB096C82CC451C99FB37C8 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */,
-				98327C3EAF9A40459F46DB7F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */,
-				F00D086159F44B0D996C2E50 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */,
-				4AAE78D0CA1E41A3A04F780C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */,
-				5F8B4AC95622493BBFCA68BD /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */,
-				938C8D30D2C7418390C6BD4F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */,
-				66D772E408EC434F9586C1C7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */,
-				AE1379392095492C805F3403 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */,
-				BC58C4EF916B4A81AB65180C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		B47BAEB2CF00455DAD7D43DC /* Resources */ = {
+		B2D6D4FDCA0B4EB7AB98C74C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		D72AAF5B913A42D3843B83DE /* Header Files */ = {
+		C3C5A766E1EC4313AB548BCD /* update_mappings */ = {
 			isa = PBXGroup;
 			children = (
-				040E7348B60F43CFB94D6341 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3.h */,
-				1BEFAACD9B2A4BB997FB92B1 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include/GLFW/glfw3native.h */,
-				555756528A3543578BFAA85A /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.h */,
-				DD8F5BD23AD543E6AC85BBE6 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_platform.h */,
-				FA36EC8A08E84740843F96C5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.h */,
-				15D674D0D49F4EA3B0BE0E95 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/internal.h */,
-				EE61F855FF4442639993ECD4 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h */,
-				F7BD23B80EA34FCC9283AF00 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.h */,
-				9EDACDC2CA1A4106B0D7F6FA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_platform.h */,
-				6B3A140D317347F6A8EF9640 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.h */,
-				992B45F1E1EC4884A36B27EA /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.h */,
+				FE490CF2B52944A092D87FE8 /* Header Files */,
+				9BA1B83F35E64101B7E6E8A2 /* CMake Rules */,
+				3EB5937D7F5948628AF7675D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMake/GenerateMappings.cmake */,
+				BC5924F9DD1F4D80BAB3F5A8 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */,
 			);
-			name = "Header Files";
+			name = update_mappings;
 			sourceTree = "<group>";
 		};
-		DA60A0ED5632456F9CAE5FE4 /* glfw */ = {
+		F4F4E12F5B694219ACA267D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D72AAF5B913A42D3843B83DE /* Header Files */,
-				AF5E4B761D45445B92A0975E /* Source Files */,
-				B6BD5B7869B240DDBADFF28F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */,
+				CC659B19856442A89E09D8C7 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CD58FC13964380962F2C67 = {
+			isa = PBXGroup;
+			children = (
+				F67E8B7741D04EAFAB4BCB7F /* GLFW3 */,
+				A0FCFECF411E49E28D01EF6A /* ALL_BUILD */,
+				F4F4E12F5B694219ACA267D9 /* Products */,
+				70576B07A66F4F2B80A33C0C /* Frameworks */,
+				B2D6D4FDCA0B4EB7AB98C74C /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		F67E8B7741D04EAFAB4BCB7F /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				393F997240024B66A6D6DF17 /* uninstall */,
+				F9B6F165071A4AC5BCCB5630 /* glfw */,
+				C3C5A766E1EC4313AB548BCD /* update_mappings */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		F9B6F165071A4AC5BCCB5630 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3E7A726384B44814DBA2C /* Header Files */,
+				15412139244045AEBBB7D1D0 /* Source Files */,
+				0D0EFA6D940448A0AB5F0103 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/CMakeLists.txt */,
 			);
 			name = glfw;
 			sourceTree = "<group>";
 		};
-		EE7D70A3A2744D89BF588FFE /* Header Files */ = {
+		FE490CF2B52944A092D87FE8 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				30FA0A4132B244EE8D019C87 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h.in */,
+				C0530F71F5F84D23B77F5D5C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/mappings.h.in */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		F79D5CEFED75454FA1067018 /* CMake Rules */ = {
+		FF83100F1B2F42169E1E05DB /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		FA2CF4FC6BCB478F96BEDD70 /* uninstall */ = {
-			isa = PBXGroup;
-			children = (
-				8394EE60E1074AAFBD2F5EBE /* CMake Rules */,
-				9A6C8E63650E47F7A59347C0 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/CMakeLists.txt */,
-			);
-			name = uninstall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,10 +381,10 @@
 /* Begin PBXNativeTarget section */
 		BBBF7D44CA331C1E3E2A4C14 /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23A0C94971B240C1922E7DCB /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 10C936918C3B49E68B27E629 /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				376E75A14758498D83FCA62B /* Sources */,
-				9A67426F27E847A7B0FF9745 /* Frameworks */,
+				49AFF37D87244006BEA6D224 /* Sources */,
+				9920D72C122B4748B7899401 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -392,37 +392,37 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 4E73DA9547394765BA15F279 /* glfw */;
+			productReference = CC659B19856442A89E09D8C7 /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		59F7784C455C431199F96FF7 /* Project object */ = {
+		0FB98364B8DD4575B27C4FD4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1510;
 			};
-			buildConfigurationList = 3129E7C44DCA4046910ABAAA /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 83B0DB0F1A5C408A9E9A4D8A /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				DD02B49E4F564FA897CFF1DB /* Debug */,
-				704A3AF4872A4C1BA2F6B1C2 /* Release */,
-				48BC85F255D541999C5B500F /* MinSizeRel */,
-				20E9366C38B54A5496C81E60 /* RelWithDebInfo */,
+				309041F2931C47ADBC5EDCD4 /* Debug */,
+				9CC22D5F825D4B0DAF3B54DC /* Release */,
+				454FC6C497954ECAABF25F37 /* MinSizeRel */,
+				BFFCAE32620B4C959869EE81 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 79FBB5D0DD5042A897EB2BD0;
+			mainGroup = F5CD58FC13964380962F2C67;
 			projectDirPath = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw;
 			projectRoot = "";
 			targets = (
-				9C667F758C87ACBA8EE0421F /* ALL_BUILD */,
-				95BD0D1A741D499E421E469A /* ZERO_CHECK */,
+				B9D2BBB080A4F7F1A0BE25C5 /* ALL_BUILD */,
+				E14DA57774E439067A08FA3F /* ZERO_CHECK */,
 				BBBF7D44CA331C1E3E2A4C14 /* glfw */,
-				B6094E4F90A98C58D932A2ED /* install */,
+				85E5A934EE16CB34299FAF44 /* install */,
 				69F25FD56D20BABA9BBD05EA /* uninstall */,
 				FDCE78679006322C39C719A2 /* update_mappings */,
 			);
@@ -671,61 +671,61 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		376E75A14758498D83FCA62B /* Sources */ = {
+		49AFF37D87244006BEA6D224 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21CDED276DE4752A3160A03 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */,
-				081A420E338740929C9001B1 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */,
-				FDD193EF23E640D6A0FC2A85 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */,
-				FCA7F9D3B6CC4131B5AE98E5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */,
-				FB57E86F36994A6098237E04 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */,
-				8A9C1A6D3BB448DFABD4D0BE /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */,
-				3C9299AD159F4B71BDFD40A3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */,
-				10C47A821AB04403AC8174D2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */,
-				D3DDE388A19847A1B4DA6B35 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */,
-				5125812CBCB5404B8D5AD1D2 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */,
-				F76CCF7AFA7F4C69B46C8138 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */,
-				BF0A19909F8640F28BE0B92F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */,
-				A946C384177F43E18896E750 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */,
-				955EE0EE9AEE47888C9DC918 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */,
-				7E1ECD8DBCBA4A39BE0F646D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */,
-				0055C426673044BAA286ED52 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */,
-				45DD8572ABDB4D85A49CF634 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */,
-				1F4D3451CA63414082895695 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */,
-				9163BA791C8A4536BD6B73C7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */,
-				A40D5692DCB94B7DBB0B9B3C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */,
-				0946D994E16147A6AD4BC627 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */,
+				95A0D4AC7DA44B4594380EA7 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_init.m */,
+				1809E5ACBE1140B2953660C3 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_joystick.m */,
+				6B1DA3432B03443DA7555B29 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_monitor.m */,
+				2FEF4FF8680E4E55BAD8ED94 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_time.c */,
+				2C1051EB67F942898AA1BAC9 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/cocoa_window.m */,
+				CB6408DF7BE24BDB83255B55 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/context.c */,
+				5E0E7DC12545482AB261AE83 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/egl_context.c */,
+				B573A58332EE45A6AE449D0F /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/init.c */,
+				7DD69515B08A4D308F017D40 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/input.c */,
+				BD0E9F879C754385B2EC7B97 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/monitor.c */,
+				F56C2F87A65944888AACE03D /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/nsgl_context.m */,
+				4A8902C585374939AB0AAC1C /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_init.c */,
+				4A3E46A59ADD4C698E598B93 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_joystick.c */,
+				F1703D44569049FFB5890128 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_monitor.c */,
+				3DCD5E71765441C48AA720F5 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/null_window.c */,
+				C4C3391B56054A7A80962390 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/osmesa_context.c */,
+				2930036DAAF44E1D8E755C23 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/platform.c */,
+				E9FEAB14FD60406991193648 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_module.c */,
+				32AD009CE59A4E81B98A4F12 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/posix_thread.c */,
+				F49E256896814E1D919585DE /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/vulkan.c */,
+				E402F447143B4B64AB35F498 /* /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D721817458E44B09431BFFF /* PBXTargetDependency */ = {
+		3F584E82D08B4CCB906F9E67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C667F758C87ACBA8EE0421F /* ALL_BUILD */;
-			targetProxy = 917220AA7F9448AAAAFAF01D /* PBXContainerItemProxy */;
+			target = E14DA57774E439067A08FA3F /* ZERO_CHECK */;
+			targetProxy = 40F145240CA8424A9101D019 /* PBXContainerItemProxy */;
 		};
-		4BCA771B35ED4A7B89974CEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 95BD0D1A741D499E421E469A /* ZERO_CHECK */;
-			targetProxy = 71267BD7F6C74F9B958C5E74 /* PBXContainerItemProxy */;
-		};
-		CA8B00DB741B42E589085E9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 95BD0D1A741D499E421E469A /* ZERO_CHECK */;
-			targetProxy = CC9E639D7E724085B50AD806 /* PBXContainerItemProxy */;
-		};
-		CF6CFAB39AF34210A1F7C667 /* PBXTargetDependency */ = {
+		8DE6B74482C04A8FA3C94880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BBBF7D44CA331C1E3E2A4C14 /* glfw */;
-			targetProxy = 4C72DD9AA48F4F1AB81D5A75 /* PBXContainerItemProxy */;
+			targetProxy = 57E1396DDE3F455BBF43656C /* PBXContainerItemProxy */;
+		};
+		9D8724FAAA4D45128BD716FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14DA57774E439067A08FA3F /* ZERO_CHECK */;
+			targetProxy = 8C9214317D7C42298530967A /* PBXContainerItemProxy */;
+		};
+		E41EBC045D2D47B7A70404FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D2BBB080A4F7F1A0BE25C5 /* ALL_BUILD */;
+			targetProxy = 5400E398CD2A4753B657CF0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0203BFA5529D4D3F82764A32 /* Debug */ = {
+		02E3304C3AF94866B5FC1CAB /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -745,9 +745,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		103FDA5CA18B4AF9AE759899 /* MinSizeRel */ = {
+		051C9B4DAE6344F6BDD7305F /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -776,7 +776,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		10BD7AF8541247988A91734F /* Release */ = {
+		0E5F03D65890460A93F85014 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -798,332 +798,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		210FEE5F4276445CB62B3B41 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		23047D960ECA44CE9F7B2E26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src/Release;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3049BF5557C84A3C82E81F99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
-				SYMROOT = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build;
-			};
-			name = Debug;
-		};
-		3236094648F14782894835E3 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		32D3D20A13D646BA81A5E1FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		44611DA79CA04DF983EBEB9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		4BCEF8C9532A476DB887B905 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		512D73419DF649B1AE3EB25F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		54866C8C62104CBE9537DD36 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5B71F45009E24C889F250E13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		60D92CD152184B28A9065C97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		723E03B2BBCE423BB3E6A2E7 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		743EE61085E3423BA653A246 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		75E1D2EE040C46E5B1D7567C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = uninstall;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		812710C4619440D08CCAC282 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		87BE7655701540B493A9318B /* Release */ = {
+		0EE8244D7E7B407DAAAD2A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1145,29 +820,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		8A714EB0BB6548FC8FFB490A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		9071CCFC7E3B4FB0835243AE /* Release */ = {
+		1042DD72BDAC4247ABE67867 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1178,7 +831,139 @@ exit 0";
 			};
 			name = Release;
 		};
-		B07282FD0CCD426B881F5798 /* RelWithDebInfo */ = {
+		10D1D7AA4C3C4DC58E6A9BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		22A9F0F66BAB48D49AB35DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		33A169DC16BE4CD088DFDE63 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4EDCD0DD76DD45A38505E4D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		507C69D18E384D4D9D515D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5D543F93C98A4188B8BC2FC4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5DCE22229C7C47E0B514F512 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1200,7 +985,128 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		BA68D5C835824885B1AA44B4 /* MinSizeRel */ = {
+		69C74ADF0C9645FA8C8B2B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6DD819CA5F884B2385C3EA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6FF7015B980D4D9D9F7A98C6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		77251EFADA7A41EA8819139C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		88407CFF75E94AADB44A9092 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		91AD3487C5204E5290C6C24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AF022A2660AF4F15BFEC77B8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1222,36 +1128,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		BF128D1B1D4E406CB964A627 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src/RelWithDebInfo;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		C4E5383A3B8348AEBCE11BFA /* Debug */ = {
+		B7C19EA84B944498BD5B2899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1280,7 +1157,76 @@ exit 0";
 			};
 			name = Debug;
 		};
-		CCFB1E8D6D094FB88FF5EEBD /* Release */ = {
+		BA5C6D88BB2D4388B5A2989E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BED253C32E9546CC91AE1501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_COCOA,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/include,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/lib/glfw/src,/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/lib/glfw/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DE2D4C5A520346198CC08F4B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build;
+			};
+			name = MinSizeRel;
+		};
+		DE7F5E1821814BBF8780CF82 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1295,116 +1241,170 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
+				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		E6BEFFD6FDDD44C9994652A4 /* RelWithDebInfo */ = {
+		E2FF93E06CE9473DA8A1BBD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E565A67325234683B7411C86 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		F524E2A8DCA14027B8375101 /* MinSizeRel */ = {
+		F18A97641D7C499FAD9AA8DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = /Users/emadsiddiq/Projects/bartholomew_cxx_stream/video_processing_glfw_ffmpeg/build/build;
 			};
-			name = MinSizeRel;
+			name = Debug;
+		};
+		FFFD0BA216D44C3FA3C2857E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23A0C94971B240C1922E7DCB /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		05A1DA8C9FD24006AC3FD783 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E5383A3B8348AEBCE11BFA /* Debug */,
-				23047D960ECA44CE9F7B2E26 /* Release */,
-				103FDA5CA18B4AF9AE759899 /* MinSizeRel */,
-				BF128D1B1D4E406CB964A627 /* RelWithDebInfo */,
+				FFFD0BA216D44C3FA3C2857E /* Debug */,
+				0E5F03D65890460A93F85014 /* Release */,
+				AF022A2660AF4F15BFEC77B8 /* MinSizeRel */,
+				5DCE22229C7C47E0B514F512 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3129E7C44DCA4046910ABAAA /* Build configuration list for PBXProject "GLFW" */ = {
+		10C936918C3B49E68B27E629 /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3049BF5557C84A3C82E81F99 /* Debug */,
-				9071CCFC7E3B4FB0835243AE /* Release */,
-				F524E2A8DCA14027B8375101 /* MinSizeRel */,
-				E6BEFFD6FDDD44C9994652A4 /* RelWithDebInfo */,
+				B7C19EA84B944498BD5B2899 /* Debug */,
+				BED253C32E9546CC91AE1501 /* Release */,
+				051C9B4DAE6344F6BDD7305F /* MinSizeRel */,
+				BA5C6D88BB2D4388B5A2989E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AAAB21A8843B4D5AA15A52A0 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+		5FFCB276FC744027B402AD70 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44611DA79CA04DF983EBEB9B /* Debug */,
-				4BCEF8C9532A476DB887B905 /* Release */,
-				723E03B2BBCE423BB3E6A2E7 /* MinSizeRel */,
-				75E1D2EE040C46E5B1D7567C /* RelWithDebInfo */,
+				6DD819CA5F884B2385C3EA45 /* Debug */,
+				507C69D18E384D4D9D515D3B /* Release */,
+				33A169DC16BE4CD088DFDE63 /* MinSizeRel */,
+				02E3304C3AF94866B5FC1CAB /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		AF3F09647F9946CF8C351C23 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		83B0DB0F1A5C408A9E9A4D8A /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0203BFA5529D4D3F82764A32 /* Debug */,
-				32D3D20A13D646BA81A5E1FB /* Release */,
-				8A714EB0BB6548FC8FFB490A /* MinSizeRel */,
-				54866C8C62104CBE9537DD36 /* RelWithDebInfo */,
+				F18A97641D7C499FAD9AA8DC /* Debug */,
+				1042DD72BDAC4247ABE67867 /* Release */,
+				DE2D4C5A520346198CC08F4B /* MinSizeRel */,
+				88407CFF75E94AADB44A9092 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B2899AEBCF154071A3E71108 /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+		AF1143331A6247E8A236F154 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B71F45009E24C889F250E13 /* Debug */,
-				CCFB1E8D6D094FB88FF5EEBD /* Release */,
-				743EE61085E3423BA653A246 /* MinSizeRel */,
-				210FEE5F4276445CB62B3B41 /* RelWithDebInfo */,
+				91AD3487C5204E5290C6C24D /* Debug */,
+				0EE8244D7E7B407DAAAD2A16 /* Release */,
+				5D543F93C98A4188B8BC2FC4 /* MinSizeRel */,
+				E565A67325234683B7411C86 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C6C04D6721704D52A84D9535 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		E4A58325C640411B9BA44BC4 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				512D73419DF649B1AE3EB25F /* Debug */,
-				10BD7AF8541247988A91734F /* Release */,
-				BA68D5C835824885B1AA44B4 /* MinSizeRel */,
-				B07282FD0CCD426B881F5798 /* RelWithDebInfo */,
+				E2FF93E06CE9473DA8A1BBD7 /* Debug */,
+				69C74ADF0C9645FA8C8B2B61 /* Release */,
+				4EDCD0DD76DD45A38505E4D7 /* MinSizeRel */,
+				DE7F5E1821814BBF8780CF82 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CE069161712344D6B99676C5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		E75DFDF1198845B4868C7D50 /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60D92CD152184B28A9065C97 /* Debug */,
-				87BE7655701540B493A9318B /* Release */,
-				812710C4619440D08CCAC282 /* MinSizeRel */,
-				3236094648F14782894835E3 /* RelWithDebInfo */,
+				10D1D7AA4C3C4DC58E6A9BCB /* Debug */,
+				22A9F0F66BAB48D49AB35DB3 /* Release */,
+				77251EFADA7A41EA8819139C /* MinSizeRel */,
+				6FF7015B980D4D9D9F7A98C6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 59F7784C455C431199F96FF7 /* Project object */;
+	rootObject = 0FB98364B8DD4575B27C4FD4 /* Project object */;
 }
